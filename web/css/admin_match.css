@@ -1,0 +1,27 @@
+.subject_name{
+    float: left;
+}
+
+.subject_del{
+    float: right;
+}
+
+
+#accordionExample{
+    height: 100%;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.subject_info{
+    height: 200px;
+}
+
+#match_title{
+    width: 300px;
+    margin:-40px -20px;
+    position: absolute;
+}
+.title_mod{
+    margin-top: -40px;
+}

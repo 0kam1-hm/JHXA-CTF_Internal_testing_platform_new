@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow: hidden;
+}
+.centens{
+    width: 1286px;
+    height: 800px;
+    background-image: url("../image/map.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 18%;
+    margin-top: 2%;
+    z-index: 1002;
+}
+.centens >#p1{
+    color: white;
+    margin-left: 300px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    padding-top: 130px;
+}
+.centens >#p2{
+    color: white;
+    margin-left: 520px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    margin-top: -50px;
+
+}
+.centens >#p3{
+    color: white;
+    margin-left: 680px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    margin-top: 40px;
+
+}
+.centens >#p4{
+    color: white;
+    margin-left: 280px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    margin-top: -15px;
+
+}
+.centens >#p5{
+    color: white;
+    margin-left: 200px;
+    font-size: 35px;
+    font-family: 微软雅黑;
+    margin-top: 205px;
+
+}
+
+/* 侧边积分排行榜 */
+.integral_rank{
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 5%;
+    width: 320px;
+    height: 710px;
+    z-index: 1002;
+}
+.integral_rank > .tops{
+    margin-top: 0px;
+    width: 180px;
+    height: 50px;
+    background:
+            linear-gradient(-125deg, transparent 52px, rgb(25, 92, 165) 0) top right;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+}
+.tops >p{
+    margin-left: 25px;
+    padding-top: 10px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: white;
+}
+.integral_rank >.names{
+    width: 100%;
+    height: 610px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.names >ul >li{
+    background-color: rgba(63, 99, 162,0.6);
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 6px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: white;
+}
+#rank>li{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: deepskyblue 2px solid;
+}
+.more{
+    background-color: rgba(63, 99, 162,0.6);
+    height: 50px;
+    margin-top: 6px;
+    width: 100%;
+    border-bottom: deepskyblue 2px solid;
+}
+.more >a{
+    text-decoration: none;
+    font-size: 18px;
+    color: yellow;
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    line-height: 50px;
+}
+.more>a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+/*侧边栏解题动态*/
+.Problem{
+    position: absolute;
+    margin-top: -772px;
+    margin-left: 72%;
+    width: 400px;
+    height: 500px;
+    z-index: 1002;
+}
+.Problem > .tops{
+    margin-top: 0px;
+    width: 180px;
+    height: 50px;
+    background:
+            linear-gradient(-125deg, transparent 52px, rgb(25, 92, 165) 0) top right;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+}
+.tops >p{
+    margin-left: 25px;
+    padding-top: 10px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: white;
+}
+.main_content{
+    width: 100%;
+    height: 425px;
+    background-color: rgba(63, 99, 162,0.5);
+    margin-top: 20px;
+    overflow: hidden;
+}
+.main_content > ul>li{
+    list-style-type: none;
+    width: 100%;
+    height: 35px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: white;
+    line-height: 35px;
+    padding-left: 8px;
+}
+.main_content > ul>li >#span1{
+    width: 100px;
+    color: yellow;
+    margin-top: -36px;
+    margin-left: 90px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.main_content > ul>li >#span2{
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 205px;
+}
+.main_content > ul>li >#span3{
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 272px;
+}
+.main_content>ul>li:hover{
+    background-color: rgba(63, 99, 162,0.5);
+}

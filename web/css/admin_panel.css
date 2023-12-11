@@ -1,0 +1,58 @@
+html,body{
+    overflow: hidden;
+}
+
+.loginmain-nav{
+    width: 200px;
+    margin: 0 0;
+    height: 100%;
+}
+#navs>a{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.loginmain-box{
+    width: 1400px;
+    margin-left: 15%;
+    height: 800px;
+}
+
+#title{
+    color:white;
+    margin-top:-40px;
+}
+
+
+#input1{
+    float: left;
+    margin-left: 0;
+}
+.input-group{
+    float: left;
+    margin-left: 20px;
+}
+
+.info{
+    margin-left: 20px;
+    display: block;
+}
+
+#user_panel{
+    list-style: none;
+}
+
+#user_panel>li{
+    width: 1200px;
+}
+
+#box{
+    height: 650px;
+    overflow: auto;
+}
+
+.del_user{
+    float: right;
+    margin-top: -38px;
+    margin-right: -35px;
+}

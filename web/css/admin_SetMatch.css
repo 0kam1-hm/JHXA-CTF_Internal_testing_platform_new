@@ -1,0 +1,19 @@
+#headingLast{
+    border-radius: 3px;
+}
+
+.match_time_start{
+    width: 300px;
+    margin:-40px -20px;
+    position: absolute;
+}
+
+.match_time_close{
+    width: 300px;
+    margin:-40px 300px;
+    position: absolute;
+}
+.Option_match{
+    margin-left: 30px;
+    margin-top: 10px;
+}

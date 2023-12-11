@@ -1,0 +1,44 @@
+.loginmain-box>div{
+	width: 100%;
+	height: 100%;
+}
+
+
+.loginmain-box>div>ul{
+    list-style: none;
+    width: 100%;
+}
+
+.loginmain-box>div>ul>li{
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.loginmain-box>div>ul>li>h4{
+    margin-left: 20px;
+    line-height: 65px;
+}
+.loginmain-box>div>ul>li>button{
+    float: right;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+
+.loginmain-box>div>ul>li>form>h4{
+    margin-left: 20px;
+    line-height: 65px;
+}
+.uploadfile{
+    float: right;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+
+.uploadfile1{
+    float: right;
+    margin-right: 200px;
+    margin-top: -65px;
+}
